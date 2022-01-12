@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <!--webpage title-->
+    <title>Mission 2</title>
+    <!--link bootstrap-->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!--linking my style sheet-->
+    <link href="css/MyStyles.css" rel="stylesheet" type="text/css" />
+
+    <!--add an icon-->
+    <link rel="icon" href="img/website_icon.png" type="image/x-icon" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6 center-container">
+                <!--header with my preferred name-->
+                <h1>Jackson Schow</h1>
+            </div>
+            <div class="col-3"></div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-5">
+                <!--paragraph on what I hope to get out of IS 413-->
+                <p><b>What I hope to get out of IS 413</b></p>
+                <p>
+                    More programming experience is one thing I know I'll get out of this class. I hope that I'll be able to get better with html,
+                    css, bootstrap, and JavaScript. I hope that it is a good semester. I honestly don't know what to keep typing, but I want to
+                    make sure that I have enough here to make it look like a paragraph. Just ran the program and it didn't look like much of anything at all.
+                    Imma just copy and paste what I already have to double the size. More programming experience is one thing I know I'll get out of this class.
+                    I hope that I'll be able to get better with html,
+                    css, bootstrap, and JavaScript. I hope that it is a good semester. I honestly don't know what to keep typing, but I want to
+                    make sure that I have enough here to make it look like a paragraph. Just ran the program and it didn't look like much of anything at all.
+                    Imma just copy and paste what I already have to double the size.
+                </p>
+            </div>
+            <div class="col-5 center-container">
+                <p><b>My wife and I in Disney World!</b></p>
+                <img id="disneyworld" src="img/DisneyWorld.jpeg" />
+            </div>
+            <div class="col-1"></div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-5">
+                <!--grade calculator to calculate a student's grade in IS 413-->
+                <h4>Grade Calculator</h4>
+                <p>Input all fields in decimal format (i.e., 0.XX)</p>
+                <form class="form">
+                    <label for="assignments">Assignments:</label><br />
+                    <input type="text" id="assignments" name="assignments" />
+                    <br />
+                    <label for="projects">Group Projects:</label><br />
+                    <input type="text" id="projects" name="projects" />
+                    <br />
+                    <label for="quizzes">Quizzes:</label><br />
+                    <input type="text" id="quizzes" name="quizzes" />
+                    <br />
+                    <label for="exams">Exams:</label><br />
+                    <input type="text" id="exams" name="exams" />
+                    <br />
+                    <label for="intex">INTEX:</label><br />
+                    <input type="text" id="intex" name="intex" />
+                    <br /><br />
+                    <button type="button" class="btn btn-primary" id="button">Calculate Grade</button>
+                </form>
+                <br />
+                <p id="percent_output"></p>
+                <p id="grade_output"></p>
+            </div>
+            <div class="col-5">
+                <!--list of my top 3 jobs I am most interested in persuing after graduation-->
+                <p><b>My Top 3 Careers to Persue Once Graduated</b></p>
+                <ol>
+                    <li>iOS Developer</li>
+                    <li>Web Developer</li>
+                    <li>Data Analyst</li>
+                </ol>
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+
+    <!--bringing in the bootstrap JavaScript, the jQuery min file, and my JavaScript-->
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/jquery/jquery-3.6.0.min.js"></script>
+    <script src="js/MyScripts.js"></script>
+</body>
+</html>

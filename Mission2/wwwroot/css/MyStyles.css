@@ -1,0 +1,14 @@
+﻿img {
+    height: 350px;
+}
+
+/*override a bootstrap element*/
+.btn, .btn-primary {
+    background-color:red !important;
+    border-color:red !important;
+}
+
+.center-container {
+    text-align: center;
+    display: block;
+}
